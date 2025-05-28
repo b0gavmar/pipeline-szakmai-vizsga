@@ -1,0 +1,236 @@
+body {
+  background: linear-gradient(135deg, #161922, #1d1f2a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  min-height: calc(100vh - 180px);
+}
+
+.container-fluid {
+  height: calc(100vh - 180px);
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  height: calc(100vh - 180px);
+}
+
+.plgreen {
+  background-color: rgb(103, 230, 109);
+}
+
+.plgreen-light {
+  background-color: rgb(132, 221, 136);
+}
+
+.card,
+.card2 {
+  background: linear-gradient(135deg, #21252c, #2f343a);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  height: 100%;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 5px;
+  color: white;
+  cursor: pointer;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+}
+
+.card:hover {
+  background: linear-gradient(135deg, #2c3038, #3a3f47);
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(103, 230, 109, 0.7);
+  transform: scale(1.02);
+}
+
+
+.card:hover input,
+.card:hover select {
+  border: 2px solid #444;
+}
+
+.modal-body {
+  background-color: #333;
+}
+
+.modal-footer {
+  background-color: #1e1e20;
+}
+
+.text-success {
+  color: rgb(103, 230, 109) !important;
+}
+
+button {
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.btn {
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+.btn-secondary:hover {
+  transform: none;
+}
+
+.btn-success {
+  background-color: rgb(103, 230, 109) !important;
+  color: black !important;
+  font-weight: bold;
+  border: 0;
+}
+
+.btn-success:active,
+.btn-success:focus {
+  color: #1a1a1a;
+  background-color: rgb(77, 196, 83) !important;
+}
+
+.btn-danger:hover {
+  background-color: rgb(241, 54, 54);
+  font-weight: bold;
+}
+
+.form-control,
+.form-select {
+  border-color: #1e1e20;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: rgb(103, 230, 109);
+  box-shadow: 0px 0px 10px rgba(103, 230, 109, 0.5);
+}
+
+.form-check-input {
+  background-color: #444;
+  border: 2px solid #666;
+  transition: all 0.3s ease-in-out;
+}
+
+.form-check-input:checked {
+  background-color: rgb(103, 230, 109);
+  border-color: rgb(80, 200, 90);
+}
+
+body.light-mode {
+  background: linear-gradient(135deg, #e8ebf0, #dfe2e7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  color: #1a1a1a !important;
+}
+
+body.light-mode .card,
+body.light-mode .card2 {
+  background: #ffffff;
+  color: #1a1a1a;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  transition: all 0.3s ease-in-out;
+}
+
+body.light-mode .card:hover {
+  background: #f9fbff;
+  box-shadow: 0 0 10px rgba(103, 230, 109, 0.3);
+}
+
+body.light-mode .card-title h4 {
+  color: #0d0d0d;
+}
+
+body.light-mode .btn {
+  border: 1px solid #ccc;
+}
+
+body.light-mode .btn-success {
+  background-color: rgb(103, 230, 109) !important;
+  color: #1a1a1a !important;
+  font-weight: bold;
+}
+
+body.light-mode .btn-success:hover {
+  background-color: rgb(91, 200, 97) !important;
+}
+
+body.light-mode .btn-danger {
+  background-color: #ff5c5c;
+  color: #fff;
+}
+
+body.light-mode .btn-danger:hover {
+  background-color: #e64949;
+}
+
+body.light-mode .modal-body,
+body.light-mode .modal-footer {
+  background-color: #f8f9fa;
+  color: #1a1a1a;
+}
+
+body.light-mode .text-success {
+  color: #28a745 !important;
+  font-weight: bold;
+  text-shadow: 0 0 4px rgba(103, 230, 109, 0.5);
+}
+
+body.light-mode .text-light {
+  color: #343a40 !important;
+}
+
+body.light-mode .form-control,
+body.light-mode .form-select {
+  background-color: #fff;
+  color: #1a1a1a;
+  border: 1px solid #ccc;
+}
+
+body.light-mode .form-control:focus,
+body.light-mode .form-select:focus {
+  border-color: rgb(103, 230, 109);
+  box-shadow: 0px 0px 10px rgba(103, 230, 109, 0.5);
+}
+
+body.light-mode .form-check-input {
+  background-color: #fff;
+  border: 2px solid #999;
+}
+
+body.light-mode .form-check-input:checked {
+  background-color: rgb(103, 230, 109);
+  border-color: rgb(80, 200, 90);
+}
+
+
+@media (min-width: 800px) {
+  .card2 {
+    transform: scale(1.1);
+    transform-origin: top center;
+  }
+}
+
+.maplibregl-popup-content{
+  color: #1a1a1a;
+}

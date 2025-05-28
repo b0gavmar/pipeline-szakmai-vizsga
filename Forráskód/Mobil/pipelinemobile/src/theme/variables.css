@@ -1,0 +1,21 @@
+/* For information on how to create your own theme, please see:
+http://ionicframework.com/docs/theming/ */
+:root {
+  --ion-color-secondary: black;
+  --ion-color-secondary-contrast: white;
+  --ion-color-success: rgb(103, 230, 109);
+  --ion-color-success-contrast: white;
+  --ion-tab-bar-background: rgb(103, 230, 109);
+  ion-content {
+    --background: linear-gradient(to bottom, #d7f1d9, hsl(111, 67%, 82%));
+  }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ion-color-success: rgb(34, 104, 38);
+    --ion-color-warning: rgb(215, 218, 74);
+    ion-content {
+      --background: #2e2e2e;
+    }
+  }
+}

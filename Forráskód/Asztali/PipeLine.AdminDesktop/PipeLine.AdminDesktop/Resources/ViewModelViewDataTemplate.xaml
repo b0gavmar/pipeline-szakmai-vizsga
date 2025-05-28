@@ -1,0 +1,82 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:controlPanelViewModels="clr-namespace:PipeLine.AdminDesktop.ViewModels.ControlPanel"
+                    xmlns:controlPanelView="clr-namespace:PipeLine.AdminDesktop.Views.ControlPanel"
+                    xmlns:devicesViewModels ="clr-namespace:PipeLine.AdminDesktop.ViewModels.Devices"
+                    xmlns:devicesView="clr-namespace:PipeLine.AdminDesktop.Views.Devices"
+                    xmlns:usersViewModels ="clr-namespace:PipeLine.AdminDesktop.ViewModels.Users"
+                    xmlns:usersView ="clr-namespace:PipeLine.AdminDesktop.Views.Users"
+                    xmlns:chargingStationViewModels ="clr-namespace:PipeLine.AdminDesktop.ViewModels.ChargingStations"
+                    xmlns:chargingStationViews="clr-namespace:PipeLine.AdminDesktop.Views.ChargingStations"
+                    xmlns:errorTicketsView2="clr-namespace:PipeLine.AdminDesktop.Views.ErrorTickets2"
+                    xmlns:errorTicketsViewModels2="clr-namespace:PipeLine.AdminDesktop.ViewModels.ErrorTickets2"
+                    xmlns:chargingInstancesViewModels="clr-namespace:PipeLine.AdminDesktop.ViewModels.ChargingInstances"
+                    xmlns:chargingInstancesViews="clr-namespace:PipeLine.AdminDesktop.Views.ChargingInstances"
+                    >
+    <DataTemplate DataType="{x:Type controlPanelViewModels:ControlPanelViewModel}">
+        <controlPanelView:ControlPanelView></controlPanelView:ControlPanelView>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type devicesViewModels:DevicesViewModel}">
+        <devicesView:DevicesView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type chargingStationViewModels:ChargingStationsViewModel}">
+        <chargingStationViews:ChargingStationsView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type chargingStationViewModels:ChargingStationsListViewModel}">
+        <chargingStationViews:ChargingStationListView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type chargingStationViewModels:ChargingPortsListViewModel}">
+        <chargingStationViews:ChargingPortsListView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type chargingInstancesViewModels:ChargingInstancesListViewModel}">
+        <chargingInstancesViews:ChargingInstancesListView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type chargingStationViewModels:UnifiedChargingStationViewModel}">
+        <chargingStationViews:UnifiedChargingStationView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type chargingInstancesViewModels:ChargingInstancesViewModel}">
+        <chargingInstancesViews:ChargingInstancesView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type chargingStationViewModels:AddNewChargingStationViewModel}">
+        <chargingStationViews:AddNewChargingStationView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type chargingStationViewModels:AddNewChargingPortViewModel}">
+        <chargingStationViews:AddNewChargingPortView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type chargingStationViewModels:EditChargingStationWindowViewModel}">
+        <chargingStationViews:EditChargingStationWindowView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type devicesViewModels:UnifiedDeviceViewModel}">
+        <devicesView:UnifiedDeviceView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type usersViewModels:UsersViewModel}">
+        <usersView:UsersView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type usersViewModels:ApplicationUserViewModel}">
+        <usersView:ApplicationUserView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type usersViewModels:UnifiedUserViewModel}">
+        <usersView:UnifiedUserView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type usersViewModels:AddNewUserViewModel}">
+        <usersView:AddNewUserView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type usersViewModels:EditUserWindowViewModel}">
+        <usersView:EditUserWindowView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type devicesViewModels:AddNewDeviceViewModel}">
+        <devicesView:AddNewDeviceView></devicesView:AddNewDeviceView>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type devicesViewModels:EditDeviceWindowViewModel}">
+        <devicesView:EditDeviceWindowView></devicesView:EditDeviceWindowView>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type errorTicketsViewModels2:ErrorTicketsViewModel2}">
+        <errorTicketsView2:ErrorTicketsView></errorTicketsView2:ErrorTicketsView>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type errorTicketsViewModels2:ErrorTicketsListViewModel2}">
+        <errorTicketsView2:ErrorTicketsListView/>
+    </DataTemplate>
+    <DataTemplate DataType="{x:Type errorTicketsViewModels2:AddNewErrorTicketsViewModel}">
+        <errorTicketsView2:AddNewErrorTicketsView/>
+    </DataTemplate>
+</ResourceDictionary>

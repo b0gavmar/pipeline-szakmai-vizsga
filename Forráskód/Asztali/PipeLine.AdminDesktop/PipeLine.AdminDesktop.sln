@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipeLine.AdminDesktop", "PipeLine.AdminDesktop\PipeLine.AdminDesktop.csproj", "{E03E060C-1B61-4AFB-A5A7-CA15F4F6CBCE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipeLine.Shared", "..\..\PipeLine.Shared\PipeLine.Shared\PipeLine.Shared.csproj", "{443410A1-C4F8-4074-95BA-DABDFE0A0156}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipeLine.Backend", "..\..\Backend\PipeLine.Backend\PipeLine.Backend.csproj", "{5390D7A7-8AE9-402B-9155-51288FB2DB41}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PipeLine.HttpService", "..\..\PipeLine.HttpService\PipeLine.HttpService.csproj", "{AE1BFCB2-019C-4C16-B938-96822A45CB24}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipeLine.Backend.Tests", "..\..\Backend\PipeLine.Backend.Tests\PipeLine.Backend.Tests.csproj", "{DE73195B-8A6D-D629-FFCD-583FB7582A9F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PipeLine.AdminDesktop.Tests", "PipeLine.AdminDesktop.Tests\PipeLine.AdminDesktop.Tests.csproj", "{11322073-7CF5-45D4-9C32-47137025BB06}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E03E060C-1B61-4AFB-A5A7-CA15F4F6CBCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E03E060C-1B61-4AFB-A5A7-CA15F4F6CBCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E03E060C-1B61-4AFB-A5A7-CA15F4F6CBCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E03E060C-1B61-4AFB-A5A7-CA15F4F6CBCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{443410A1-C4F8-4074-95BA-DABDFE0A0156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{443410A1-C4F8-4074-95BA-DABDFE0A0156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{443410A1-C4F8-4074-95BA-DABDFE0A0156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{443410A1-C4F8-4074-95BA-DABDFE0A0156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5390D7A7-8AE9-402B-9155-51288FB2DB41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5390D7A7-8AE9-402B-9155-51288FB2DB41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5390D7A7-8AE9-402B-9155-51288FB2DB41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5390D7A7-8AE9-402B-9155-51288FB2DB41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE1BFCB2-019C-4C16-B938-96822A45CB24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE1BFCB2-019C-4C16-B938-96822A45CB24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE1BFCB2-019C-4C16-B938-96822A45CB24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE1BFCB2-019C-4C16-B938-96822A45CB24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE73195B-8A6D-D629-FFCD-583FB7582A9F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE73195B-8A6D-D629-FFCD-583FB7582A9F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE73195B-8A6D-D629-FFCD-583FB7582A9F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE73195B-8A6D-D629-FFCD-583FB7582A9F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11322073-7CF5-45D4-9C32-47137025BB06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11322073-7CF5-45D4-9C32-47137025BB06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11322073-7CF5-45D4-9C32-47137025BB06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11322073-7CF5-45D4-9C32-47137025BB06}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A3C02725-A57F-405A-906C-C5E35112BA03}
+	EndGlobalSection
+EndGlobal
