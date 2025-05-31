@@ -1,1 +1,1 @@
-# Az eredeti repository amiben a commitok is vannak nem publikus.
+# Az eredeti repository (amely tartalmazza a commitokat) nem publikus, és az iskola tulajdona.
